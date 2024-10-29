@@ -1,9 +1,9 @@
 import React from 'react'
 import CouponEx from './CouponEx'
 import Helpdesk from './Helpdesk'
-import Card1Main from './Card1Main'
 import Card2Main from './Card2Main'
 import MovFollow from './MovFollow'
+import Card1Main from './Card1Main'
 
 const MoviesEx = () => {
   return (

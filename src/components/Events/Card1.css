@@ -29,10 +29,10 @@
   .bn632-hover.bn23 {
     background-image: linear-gradient(
       to right,
-      #4CAF50,
-      #f78cd5,
-      #66f16a,
+      #7532A9,
+      #ff00ff,
+      #cea3f0,
       #dc59b2
     );
-    box-shadow: 0 4px 15px 0 #4CAF50;
+    box-shadow: 0 4px 15px 0 #7532A9;
   }

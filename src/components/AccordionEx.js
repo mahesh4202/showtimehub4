@@ -26,9 +26,9 @@ const AccordionEx = () => {
             What are Personalized Recommendations?
             </Box>
             {isExpanded ? (
-              <BiMinus style={{ backgroundColor: "#2196F3" , marginRight:'20px' }} fontSize='24px' />
+              <BiMinus style={{ backgroundColor: "#7532A9" , marginRight:'20px' }} fontSize='24px' />
             ) : (
-              <BiPlus style={{ backgroundColor: "#2196F3" , marginRight:'20px' }}  fontSize='24px' />
+              <BiPlus style={{ backgroundColor: "#7532A9" , marginRight:'20px' }}  fontSize='24px' />
             )}
           </AccordionButton>
         </h2>
@@ -47,9 +47,9 @@ const AccordionEx = () => {
             What is Social Media Integration?
             </Box>
             {isExpanded ? (
-              <BiMinus style={{ backgroundColor: "#2196F3" , marginRight:'20px' }} fontSize='24px' />
+              <BiMinus style={{ backgroundColor: "#7532A9" , marginRight:'20px' }} fontSize='24px' />
             ) : (
-              <BiPlus style={{ backgroundColor: "#2196F3" , marginRight:'20px' }}  fontSize='24px' />
+              <BiPlus style={{ backgroundColor: "#7532A9" , marginRight:'20px' }}  fontSize='24px' />
             )}
           </AccordionButton>
         </h2>
@@ -68,9 +68,9 @@ const AccordionEx = () => {
             What is meant by Interactive Seat Maps?
             </Box>
             {isExpanded ? (
-              <BiMinus style={{ backgroundColor: "#2196F3" , marginRight:'20px' }} fontSize='24px' />
+              <BiMinus style={{ backgroundColor: "#7532A9" , marginRight:'20px' }} fontSize='24px' />
             ) : (
-              <BiPlus style={{ backgroundColor: "#2196F3" , marginRight:'20px' }}  fontSize='24px' />
+              <BiPlus style={{ backgroundColor: "#7532A9" , marginRight:'20px' }}  fontSize='24px' />
             )}
           </AccordionButton>
         </h2>
@@ -89,9 +89,9 @@ const AccordionEx = () => {
             What is Integration with Loyalty Programs?
             </Box>
             {isExpanded ? (
-              <BiMinus style={{ backgroundColor: "#2196F3" , marginRight:'20px' }} fontSize='24px' />
+              <BiMinus style={{ backgroundColor: "#7532A9" , marginRight:'20px' }} fontSize='24px' />
             ) : (
-              <BiPlus style={{ backgroundColor: "#2196F3" , marginRight:'20px' }}  fontSize='24px' />
+              <BiPlus style={{ backgroundColor: "#7532A9" , marginRight:'20px' }}  fontSize='24px' />
             )}
           </AccordionButton>
         </h2>
@@ -110,9 +110,9 @@ const AccordionEx = () => {
             What are Express Checkouts?
             </Box>
             {isExpanded ? (
-              <BiMinus style={{ backgroundColor: "#2196F3" , marginRight:'20px' }} fontSize='24px' />
+              <BiMinus style={{ backgroundColor: "#7532A9" , marginRight:'20px' }} fontSize='24px' />
             ) : (
-              <BiPlus style={{ backgroundColor: "#2196F3" , marginRight:'20px' }}  fontSize='24px' />
+              <BiPlus style={{ backgroundColor: "#7532A9" , marginRight:'20px' }}  fontSize='24px' />
             )}
           </AccordionButton>
         </h2>
@@ -131,9 +131,9 @@ const AccordionEx = () => {
             What is Augmented Reality (AR) Integration?
             </Box>
             {isExpanded ? (
-              <BiMinus style={{ backgroundColor: "#2196F3" , marginRight:'20px' }} fontSize='24px' />
+              <BiMinus style={{ backgroundColor: "#7532A9" , marginRight:'20px' }} fontSize='24px' />
             ) : (
-              <BiPlus style={{ backgroundColor: "#2196F3" , marginRight:'20px' }}  fontSize='24px' />
+              <BiPlus style={{ backgroundColor: "#7532A9" , marginRight:'20px' }}  fontSize='24px' />
             )}
           </AccordionButton>
         </h2>
@@ -152,9 +152,9 @@ const AccordionEx = () => {
             Is my Subscription cancellable?
             </Box>
             {isExpanded ? (
-              <BiMinus style={{ backgroundColor: "#2196F3" , marginRight:'20px' }} fontSize='24px' />
+              <BiMinus style={{ backgroundColor: "#7532A9" , marginRight:'20px' }} fontSize='24px' />
             ) : (
-              <BiPlus style={{ backgroundColor: "#2196F3" , marginRight:'20px' }}  fontSize='24px' />
+              <BiPlus style={{ backgroundColor: "#7532A9" , marginRight:'20px' }}  fontSize='24px' />
             )}
           </AccordionButton>
         </h2>

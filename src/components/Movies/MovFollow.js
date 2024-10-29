@@ -11,7 +11,7 @@ const MovFollow = () => {
         <div class="row">
             <div class="column">
                 <div class="card1">
-                <img src= {Follow1} alt="John" style= {{ width: "100%" }}/>
+                <img src= {Follow1} alt="John" style= {{ width: "100%" , borderTopLeftRadius: "40px" , borderBottomRightRadius: "40px" }}/>
                 <div class="container22">
                     <h2>Chiranjeevi</h2>
                     <p>He gained popularity among masses for introducing break dances<span style={{color: "blue"}}>.....Read more</span></p>
@@ -21,7 +21,7 @@ const MovFollow = () => {
             </div>
             <div class="column">
                 <div class="card1">
-                <img src= {Follow2} alt="Mike" style= {{ width: "100%" }}/>
+                <img src= {Follow2} alt="Mike" style= {{ width: "100%" , borderTopLeftRadius: "40px" , borderBottomRightRadius: "40px" }}/>
                 <div class="container22">
                     <h2>Tamannah</h2>
                     <p>The actress made her acting debut at a very young age<span style={{color: "blue"}}>.....Read more</span></p>
@@ -31,7 +31,7 @@ const MovFollow = () => {
             </div>
             <div class="column">
                 <div class="card1">
-                <img src= {Follow3} alt="Mike" style= {{ width: "100%" }}/>
+                <img src= {Follow3} alt="Mike" style= {{ width: "100%" , borderTopLeftRadius: "40px" , borderBottomRightRadius: "40px" }}/>
                 <div class="container22">
                     <h2>Bobby Deol</h2>
                     <p>Bobby Deol is an Indian actor who made his debut in 1995<span style={{color: "blue"}}>.....Read more</span></p>
@@ -41,7 +41,7 @@ const MovFollow = () => {
             </div>
             <div class="column">
                 <div class="card1">
-                <img src= {Follow4} alt="Jane" style= {{ width: "100%" }}/>
+                <img src= {Follow4} alt="Jane" style= {{ width: "100%" , borderTopLeftRadius: "40px" , borderBottomRightRadius: "40px" }}/>
                 <div class="container22">
                     <h2>Alia Bhatt</h2>
                     <p>Alia Bhatt debuted as a child actress in Sangharsh (1999)<span style={{color: "blue"}}>.....Read more</span></p>

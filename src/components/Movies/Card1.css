@@ -7,48 +7,10 @@
     color: white;
     position: relative;
   }
-  .ribbon1 {
-    width: 60px;
-    font-size: 14px;
-    padding: 4px;
-    position: absolute;
-    right: -25px;
-    top: -12px;
-    text-align: center;
-    border-radius: 25px;
-    transform: rotate(20deg);
-    background-color: #ff9800;
-    color: white;
-  }
-  .ribbon2 {
-    width: 60px;
-    font-size: 14px;
-    padding: 4px;
-    position: absolute;
-    right: -25px;
-    top: -12px;
-    text-align: center;
-    border-radius: 25px;
-    transform: rotate(20deg);
-    background-color: #fc2e46;
-    color: white;
-  }
-  .ribbon3 {
-    width: 60px;
-    font-size: 13px;
-    padding: 4px;
-    position: absolute;
-    right: -25px;
-    top: -12px;
-    text-align: center;
-    border-radius: 25px;
-    transform: rotate(20deg);
-    background-color: #2600ff;
-    color: white;
-  }
   .btn:hover{
-    background-color: #4CAF50;
+    background-color: #7532A9;
   }
+
   .heading{
     margin: auto;
     width: 100%;
@@ -56,3 +18,88 @@
     align-items: center;
     justify-content: center;
   }
+  
+  h3 {
+    font-size: 24px;
+    word-break: break-all;
+  }
+  
+  .column {
+    float: left;
+    width: 25%;
+  }
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  .content {
+    background-color: white;
+    padding: 10px;
+  }
+  
+  @media screen and (max-width: 900px) {
+    .column {
+      width: 50%;
+    }
+  }
+  
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+    }
+  }
+
+.bn29 {
+  border: none;
+  padding: 0.8em 2.5em;
+  outline: none;
+  color: white;
+  font-style: 1.2em;
+  position: relative;
+  z-index: 1;
+  cursor: pointer;
+  background: none;
+  text-shadow: 3px 3px 10px rgba(0, 0, 0, 0.45);
+}
+
+.bn29:before,
+.bn29:after {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  border-radius: 10em;
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+  width: 105%;
+  height: 105%;
+  content: "";
+  z-index: -2;
+  background-size: 400% 400%;
+  background: linear-gradient(
+    60deg,
+    #7532A9,
+    #f78cd5
+  );
+}
+
+.bn29:before {
+  -webkit-filter: blur(7px);
+  filter: blur(7px);
+  -webkit-transition: all 0.25s ease;
+  transition: all 0.25s ease;
+  -webkit-animation: pulse 10s infinite ease;
+  animation: pulse 10s infinite ease;
+}
+
+.bn29:after {
+  -webkit-filter: blur(0.3px);
+  filter: blur(0.3px);
+}
+
+.bn29:hover:before {
+  width: 115%;
+  height: 115%;
+}

@@ -11,7 +11,7 @@ export const Container = styled.div`
  
 export const ProgressBar = styled.div`
     height: 10px;
-    background-color: #4CAF50;
+    background-color: #7532A9;
 `;
 export const ScrollContent = styled.div`
     overflowy: scroll;

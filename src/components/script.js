@@ -3,7 +3,6 @@ const options = document.querySelectorAll('.options li');
 const selectedOption = document.querySelector('.selected-option'); 
 const clearButton = document.getElementById('clear-button'); 
 
-// Check if search country present in menu list 
 searchBox.addEventListener('input', () => { 
 	const searchTerm = searchBox.value.toLowerCase(); 
 

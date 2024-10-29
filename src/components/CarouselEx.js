@@ -25,7 +25,7 @@ export default function CarouselEx() {
           <div class="carousel-caption d-none d-md-block">
               <h1>Movies</h1>
               <p>Watch latest Movies nearby your Locatiopn</p>
-                <a class="carousel-btn" href="/">Book Now</a>
+              <button className='button95'>Book now</button>
           </div>
         </div>
         <div class="carousel-item">
@@ -33,7 +33,7 @@ export default function CarouselEx() {
           <div class="carousel-caption d-none d-md-block">
               <h1>Events</h1>
               <p>Spiritual Events, Workshops, Meetups, Comedy shows, Exhibitions, Conferences find every type of events.</p>
-                <a class="carousel-btn" href="/">Book Now</a>
+              <button className='button95'>Book now</button>
           </div>
         </div>
         <div class="carousel-item">
@@ -41,7 +41,7 @@ export default function CarouselEx() {
           <div class="carousel-caption d-none d-md-block">
               <h1>Sports</h1>
               <p>Watch Live Sports</p>
-                <a class="carousel-btn" href="/">Book Now</a>
+              <button className='button95'>Book now</button>
           </div>
         </div>
       </div>

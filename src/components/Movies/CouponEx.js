@@ -13,7 +13,7 @@ const CouponEx = () => {
                 <p>Grab Minimum 20% off on your purchases instantly</p>
             </div>
             <div class="container1">
-                <p>Use Promo Code: <span class="promo">BOH232</span></p>
+                <p>Use Promo Code: <span class="promo" >BOH232</span></p>
                 <p class="expire">Expires: Nov 03, 2024</p>
             </div>
         </div>
@@ -26,7 +26,7 @@ const CouponEx = () => {
                 <p>Get 100/- off on orders above 799/-</p>
             </div>
             <div class="container1">
-                <p>Use Promo Code: <span class="promo">FAY478</span></p>
+                <p>Use Promo Code: <span class="promo" >UDO478</span></p>
                 <p class="expire">Expires: Nov 23, 2024</p>
             </div>
         </div>
@@ -39,7 +39,7 @@ const CouponEx = () => {
                 <p>Grab Minimum 25% off on your orders above 1099/-</p>
             </div>
             <div class="container1">
-                <p>Use Promo Code: <span class="promo">DRJ856</span></p>
+                <p>Use Promo Code: <span class="promo" >DRJ856</span></p>
                 <p class="expire">Expires: Dec 07, 2024</p>
             </div>
         </div>
@@ -49,10 +49,10 @@ const CouponEx = () => {
             </div>
             <div class="container1" style= {{ backgroundColor: "white" }}>
                 <h2><b>Vouchers</b></h2>
-                <p>Instant Vouchers of other apps in this Festive Season</p>
+                <p>Instant Vouchers in this Festive Season</p>
             </div>
             <div class="container1">
-                <p>Use Promo Code: <span class="promo">OGS852</span></p>
+                <p>Use Promo Code: <span class="promo" >OGS852</span></p>
                 <p class="expire">Expires: Jan 21, 2025</p>
             </div>
         </div>

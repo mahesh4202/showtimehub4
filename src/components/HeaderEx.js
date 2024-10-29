@@ -14,7 +14,7 @@ import '../App.css'
 
 function HeaderEx() {
   return (
-    <Navbar expand="lg" style={{ backgroundColor: "#4CAF50" }}>
+    <Navbar expand="lg" style={{ backgroundColor: "#7532A9" }}>
       <Container fluid>
         <Navbar.Brand href="#" style={{ color: "white" , fontSize: "24px" }}>ShowtimeHub</Navbar.Brand>
         <Navbar.Toggle aria-controls="navbarScroll" />
@@ -30,7 +30,7 @@ function HeaderEx() {
               <NavDropdown.Item href="#action4">Bengaluru</NavDropdown.Item>
               <NavDropdown.Item href="#action5">Chennai</NavDropdown.Item>
               <NavDropdown.Item href="#action3">Delhi/NCR</NavDropdown.Item>
-              <NavDropdown.Item href="#action4">Hyderabad</NavDropdown.Item>
+              <NavDropdown.Item href="#action4">Hyad</NavDropdown.Item>
               <NavDropdown.Item href="#action5">Jaipur</NavDropdown.Item>
               <NavDropdown.Item href="#action3">Kolkata</NavDropdown.Item>
               <NavDropdown.Item href="#action4">Lucknow</NavDropdown.Item>
@@ -44,7 +44,7 @@ function HeaderEx() {
           </Nav>
           <Form className="d-flex">
             <Form.Control type="search" placeholder="Search" className="me-2" aria-label="Search"/>
-              <a class="carousel-btn" href="/">Search</a>
+            <button className='button63'>Search</button>
             </Form>
         </Navbar.Collapse>
       </Container>
