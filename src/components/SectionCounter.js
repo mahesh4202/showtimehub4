@@ -38,7 +38,7 @@ const SectionCounter = () => {
                 <p>Orders</p>
                 </div>
             </div>
-            </div>
+        </div>
     </div>
   )
 }

@@ -12,7 +12,7 @@ export default function CarouselEx() {
         setIndex(selectedIndex);
     };
     return (
-        <div class="container my-5 h-50">
+        <div class="container mt-2 mb-5 h-50">
           <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
       <div class="carousel-indicators">
         <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
