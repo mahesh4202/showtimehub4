@@ -15,7 +15,7 @@ const Card1 = () => {
                 <Card.Text style={{ color: "black" , fontSize: "18px" }}>
                     Venue: Kakinada
                 </Card.Text>
-                <a href="/"><button class="c">View</button></a>
+                <a href="/"><button class="bn632-hover bn23">View</button></a>
             </Card>
         </div>
         <div>
