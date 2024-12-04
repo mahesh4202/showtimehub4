@@ -40,15 +40,20 @@
   left: 0;
   z-index: -1;
   background: #7532A9;
-  transition: all 0.3s ease;
+  transition: all 0.3s ease-in-out;
 }
 
 .btn-43:hover {
-  color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
 }
 
 .btn-43:hover:after {
   top: auto;
   bottom: 0;
   height: 100%;
+  border-radius: 5px 0px;
+}
+
+.TheatreCard{
+  overflow-x: hidden;
 }

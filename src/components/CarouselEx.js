@@ -4,6 +4,7 @@ import 'bootstrap/dist/css/bootstrap.css';
 import carousel1 from '../assets/HomeCarousel1.jpg'
 import carousel2 from '../assets/HomeCarousel2.jpg'
 import carousel3 from '../assets/HomeCarousel3.jpg'
+import { Link } from 'react-router-dom';
 
 export default function CarouselEx() {
     const [index, setIndex] = useState(0);
@@ -21,27 +22,33 @@ export default function CarouselEx() {
       </div>
       <div class="carousel-inner">
         <div class="carousel-item active">
-          <img src={carousel1} alt="..." class="d-block w-100"/>
+          <img src={carousel1} alt="car"/>
           <div class="carousel-caption d-none d-md-block">
               <h1>Movies</h1>
               <p>Watch latest Movies nearby your Locatiopn</p>
-              <button className='button95'>Book now</button>
+              <a>
+                <Link to="/movies" className='button95'>Book now</Link>
+              </a>
           </div>
         </div>
         <div class="carousel-item">
-          <img src={carousel2} alt="..." class="d-block w-100"/>
+          <img src={carousel2} alt="car"/>
           <div class="carousel-caption d-none d-md-block">
               <h1>Events</h1>
               <p>Spiritual Events, Workshops, Meetups, Comedy shows, Exhibitions, Conferences find every type of events.</p>
-              <button className='button95'>Book now</button>
+              <a>
+                <Link to="/events" className='button95'>Book now</Link>
+              </a>
           </div>
         </div>
         <div class="carousel-item">
-          <img src={carousel3} alt="..." class="d-block w-100"/>
+          <img src={carousel3} alt="car"/>
           <div class="carousel-caption d-none d-md-block">
               <h1>Sports</h1>
               <p>Watch Live Sports</p>
-              <button className='button95'>Book now</button>
+              <a>
+                <Link to="/sports" className='button95'>Book now</Link>
+              </a>
           </div>
         </div>
       </div>

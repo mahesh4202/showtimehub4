@@ -29,7 +29,6 @@ const MoviesMain = () => {
                 ></ProgressBar>
             </Container>
             <ScrollContent>
-              <HeaderEx />
               <MoviesEx />
               <FooterEx />
             </ScrollContent>

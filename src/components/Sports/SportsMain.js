@@ -4,7 +4,6 @@ import {
     ProgressBar,
     ScrollContent,
 } from "../Styles";
-import HeaderEx from '../HeaderEx'
 import SportsEx from "./SportsEx";
 import FooterEx from '../FooterEx'
 const MoviesMain = () => {
@@ -29,7 +28,6 @@ const MoviesMain = () => {
                 ></ProgressBar>
             </Container>
             <ScrollContent>
-              <HeaderEx />
               <SportsEx />
               <FooterEx />
             </ScrollContent>

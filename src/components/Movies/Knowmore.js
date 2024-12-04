@@ -6,16 +6,15 @@ import Knowmore3 from './Knowmore3.jpg'
 import Knowmore4 from './Knowmore4.jpg'
 import Knowmore5 from './Knowmore5.jpg'
 import './Knowmore.css'
-import HeaderEx from '../HeaderEx'
+import AvailableTheatre from './AvailableTheatre'
 
 const Knowmore = () => {
   return (
     <div>
-        <HeaderEx />
     <div className='container my-4'>
         <div className='d-flex'>
             <div class="image" style={{ width: "30%" }}>
-                <img className='img85' src={Card21} style={{ width: "100%" }}/>
+                <img className='img85' src={Card21} style={{ width: "100%" , borderTopLeftRadius: "40px" , borderBottomRightRadius: "40px" }}/>
             </div>
             <div style={{ width: "70%" , paddingLeft: "10px"}}>
             <h1>Jigra</h1>
@@ -33,29 +32,34 @@ const Knowmore = () => {
             </div>
             <div className='d-flex '>
                 <div>
-                    <img style={{ width: "80%" , borderRadius: "50%"}} src={Knowmore1} alt="Avatar" />
+                    <img style={{ width: "80%" , borderTopLeftRadius: "40px" , borderBottomRightRadius: "40px"}} src={Knowmore1} alt="Avatar" />
                     <p>Alia Bhatt</p>
                 </div>
                 <div>
-                    <img style={{ width: "80%" , borderRadius: "50%"}} src={Knowmore2} alt="Avatar" />
+                    <img style={{ width: "80%" , borderTopLeftRadius: "40px" , borderBottomRightRadius: "40px"}} src={Knowmore2} alt="Avatar" />
                     <p>Vedang Raina</p>
                 </div>
                 <div>
-                    <img style={{ width: "80%" , borderRadius: "50%"}} src={Knowmore3} alt="Avatar" />
+                    <img style={{ width: "80%" , borderTopLeftRadius: "40px" , borderBottomRightRadius: "40px"}} src={Knowmore3} alt="Avatar" />
                     <p>Aditya Nanda</p>
                 </div>
                 <div>
-                    <img style={{ width: "80%" , borderRadius: "50%"}} src={Knowmore4} alt="Avatar" />
+                    <img style={{ width: "80%" , borderTopLeftRadius: "40px" , borderBottomRightRadius: "40px"}} src={Knowmore4} alt="Avatar" />
                     <p>Rahul Ravindran</p>
                 </div>
                 <div>
-                    <img style={{ width: "80%" , borderRadius: "50%"}} src={Knowmore5} alt="Avatar" />
+                    <img style={{ width: "80%" , borderTopLeftRadius: "40px" , borderBottomRightRadius: "40px"}} src={Knowmore5} alt="Avatar" />
                     <p>Vivek Gomber</p>
                 </div>
             </div>
+        </div>        
+            <div className='mt-5'>
+                <div>
+                    <h4 style={{ textAlign: "left"}}>Available Theatres</h4>
+                    <AvailableTheatre />
+                </div>
+            </div>
         </div>
-        <a href="/buttons/43" class="btn41-43 btn-43" style={{ borderTopRightRadius: "0px" , borderTopLeftRadius: "10px", borderBottomRightRadius: "10px" , borderBottomLeftRadius: "0px" }} >Book now</a>
-    </div>
     </div>
   )
 }

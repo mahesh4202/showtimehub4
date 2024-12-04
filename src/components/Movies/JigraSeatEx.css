@@ -1,0 +1,40 @@
+.JigraSeatEx{
+    color: grey;
+}
+
+.JigraSeatEx:hover{
+    background-color: greenyellow;
+    border-radius: 20%;
+}
+
+.JigraDoor{
+    color: white;
+}
+
+.JigraBook{
+    color: rgb(255, 255, 255);
+    background-color: #c0c0c0;
+    border-radius: 20%;
+}
+
+.middle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.JigraBooked{
+    border-radius: 20%;
+    background-color: greenyellow;
+    color: gray;
+}
+
+.hide{
+    width: auto;
+}
+
+@media (max-width: 500px){
+    .hide {
+        display: none
+    }
+}
