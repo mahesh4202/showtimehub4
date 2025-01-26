@@ -26,7 +26,7 @@ const images = [
     width: '50%',
   },
   {
-    url: 'https://www.ronorp.net/media/6105.png',
+    url: 'https://sunsetcinemaclub.in/img/admin/venues/IUgfqims8g_C%20577x442.jpg',
     title: 'Open Air Cinema',
     width: '50%',
   },
